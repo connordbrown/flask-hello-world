@@ -58,7 +58,7 @@ def db_select():
     response_string = ""
     response_string += "<table>"
     for player in records:
-        response_string += "<tr"
+        response_string += "<tr>"
         for info in player:
             response_string += f"<td>{info}</td>"
         response_string += "</tr>"
